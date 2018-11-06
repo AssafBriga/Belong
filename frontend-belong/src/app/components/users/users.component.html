@@ -1,0 +1,17 @@
+<div id="pageContainer">
+    <div id="usersPageNavber">
+        <div id="titleContainer">
+            <h2 class="title">Users</h2>
+        </div>
+        <div id="links">
+            <a [routerLink]="['/addUser']">+ Add User</a>
+        </div>
+    </div>
+    
+    <div *ngIf="!usersList" id="noUsersNote">
+        <h2>No users to display</h2>
+    </div>
+    <div *ngIf="usersList" id="usersList">
+        <user-item *ngFor="let user of usersList" [userData]="user"></user-item>
+    </div>
+</div>

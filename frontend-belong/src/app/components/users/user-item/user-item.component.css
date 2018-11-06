@@ -1,0 +1,39 @@
+div{
+    display: flex;
+    flex-direction:column;
+};
+
+
+#dataContainer{
+    margin-top: 30px;
+    
+    
+}
+
+#photoContainer{
+    flex:2;
+}
+
+
+
+#userGender{
+    font-size: 0.65em
+}
+
+img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    
+
+}
+
+#itemContainer{
+    background-color: #152f59;
+    border-top-left-radius: 65px 65px;
+    border-top-right-radius: 65px 65px;;
+    padding: 5px;
+    color: white;
+    box-shadow: 1px 1px 10px black;
+    height: 200px;
+}
